@@ -1,0 +1,23 @@
+# Node / Automation dependencies
+node_modules/
+.pnpm-store/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Test outputs & Playwright artifacts
+playwright-report/
+test-results/
+blob-report/
+allure-results/
+allure-report/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
