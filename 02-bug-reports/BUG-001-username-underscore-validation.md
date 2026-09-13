@@ -2,6 +2,8 @@
 
 ## Metadata
 - **Bug ID**: `BUG-001`
+- **GitHub Issue**: [#26](https://github.com/Nyanns/lumiina/issues/26)
+- **Jira Issue**: `LUM-5`
 - **Associated Test Case**: `TC_AUTH_001`
 - **Module**: Authentication (`/register`)
 - **Reported By**: Sandi (QA & SDET Engineering)
