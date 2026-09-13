@@ -1,4 +1,4 @@
-# 🎯 QA & SDET Engineering Masterclass: Zero to Hero Roadmap
+# QA & SDET Engineering Masterclass: Zero to Hero Roadmap
 > **Kurikulum Lengkap, Terstruktur, dan Berstandar Industri Global**  
 > **Target Aplikasi Pengujian**: [Lumiina Live Production](https://lumiina-art.vercel.app)  
 > **Repository Portofolio Mandiri**: `Nyanns/lumiina-qa-automation`  
@@ -6,47 +6,47 @@
 
 ---
 
-## 🧭 Executive Summary: "Taktik Mourinho" (The Unfair Advantage)
+## Executive Summary: "Taktik Mourinho" (The Unfair Advantage)
 
 Di pasar kerja, pelamar QA umumnya terbagi menjadi 2 kategori:
 1. **Manual QA murni**: Hanya bisa klik-klik UI, tidak paham API, tidak bisa coding, dan tidak tahu jeroan server.
 2. **Automation QA pemula**: Hanya bisa menulis script dasar dengan Python/Java, tapi buta arsitektur backend, tidak paham database query, dan tidak paham celah keamanan.
 
 **Posisi Sandi (The Rare Profile):**
-- 🎓 **S1 Informatika (CS Degree)**: Fondasi algoritma, struktur data, dan rekayasa perangkat lunak yang matang.
-- 🛡️ **Cybersecurity Background (HTB Level 10)**: Insting adversarial tajam, terbiasa mencari celah, edge cases, dan logic flaws.
-- ⚡ **Go Backend Builder**: Paham persis cara kerja REST API, JWT lifecycle, GORM, database connection pooling, Redis caching, hingga rate limiting karena **membangunnya sendiri dari nol**.
-- 🚀 **Automation Engineer**: Mampu mengotomasi API (Postman/Newman) dan Web UI (Playwright) dengan arsitektur standar industri (Page Object Model & CI/CD).
+- **S1 Informatika (CS Degree)**: Fondasi algoritma, struktur data, dan rekayasa perangkat lunak yang matang.
+- **Cybersecurity Background (HTB Level 10)**: Insting adversarial tajam, terbiasa mencari celah, edge cases, dan logic flaws.
+- **Go Backend Builder**: Paham persis cara kerja REST API, JWT lifecycle, GORM, database connection pooling, Redis caching, hingga rate limiting karena **membangunnya sendiri dari nol**.
+- **Automation Engineer**: Mampu mengotomasi API (Postman/Newman) dan Web UI (Playwright) dengan arsitektur standar industri (Page Object Model & CI/CD).
 
 > **Kalimat Sakti Wawancara:**  
 > *"Saya tidak hanya menguji aplikasi dari luar, tetapi saya memahami anatomi kode, siklus data di database, dan potensi celah arsitektur hingga ke baris terdalam karena saya sendiri yang membangun backend dan infrastrukturnya."*
 
 ---
 
-## 🗺️ Peta Perjalanan Belajar (Milestone Roadmap)
+## Peta Perjalanan Belajar (Milestone Roadmap)
 
 ```mermaid
 flowchart TD
-    M1["🟢 Sesi 1: QA Fundamentals & Mindset<br/>• SDLC vs STLC<br/>• 7 Prinsip Testing (ISTQB)<br/>• Test Levels & Test Types"]
-    M2["🟢 Sesi 2: Test Design Techniques<br/>• Equivalence Partitioning (EP)<br/>• Boundary Value Analysis (BVA)<br/>• Decision Table & State Transition"]
-    M3["🟡 Sesi 3: Test Documentation & Matrix<br/>• Test Plan & Test Scenarios<br/>• Test Case Matrix (Positive/Negative/Edge)<br/>• RTM (Requirement Traceability Matrix)"]
-    M4["🟡 Sesi 4: Bug Tracking & Defect Lifecycle<br/>• Defect Lifecycle (New -> Closed)<br/>• Severity vs Priority Matrix<br/>• Industry-Standard Bug Reporting (Jira)"]
-    M5["🟠 Sesi 5: API Testing Automation<br/>• HTTP Anatomy & Status Codes<br/>• Postman Automated Assertions (Chai JS)<br/>• Token Chaining & Newman CLI Reports"]
-    M6["🔴 Sesi 6: Web UI E2E Automation (Playwright)<br/>• Architecture, Locators & Auto-waiting<br/>• Page Object Model (POM)<br/>• Authentication State & Trace Viewer"]
-    M7["🔴 Sesi 7: Performance & Stress Testing<br/>• k6 Load, Stress, & Spike Testing<br/>• Latency Analysis (p95, p99, throughput)"]
-    M8["🟣 Sesi 8: QA CI/CD & GitHub Actions<br/>• Automated Pipeline per PR/Push<br/>• Scheduled Nightly Regression<br/>• Allure / Playwright HTML Test Dashboard"]
-    M9["🏆 Sesi 9: Portfolio & Interview Mastery<br/>• World-Class GitHub README<br/>• Live Test Report Artifacts<br/>• Top 50 QA/SDET Technical Interview Drill"]
+    M1["Modul 1: QA Fundamentals & Mindset<br/>• SDLC vs STLC<br/>• 7 Prinsip Testing (ISTQB)<br/>• Test Levels & Test Types"]
+    M2["Modul 2: Test Design Techniques<br/>• Equivalence Partitioning (EP)<br/>• Boundary Value Analysis (BVA)<br/>• Decision Table & State Transition"]
+    M3["Modul 3: Test Documentation & Matrix<br/>• Test Plan & Test Scenarios<br/>• Test Case Matrix (Positive/Negative/Edge)<br/>• RTM (Requirement Traceability Matrix)"]
+    M4["Modul 4: Bug Tracking & Defect Lifecycle<br/>• Defect Lifecycle (New -> Closed)<br/>• Severity vs Priority Matrix<br/>• Industry-Standard Bug Reporting (Jira)"]
+    M5["Modul 5: API Testing Automation<br/>• HTTP Anatomy & Status Codes<br/>• Postman Automated Assertions (Chai JS)<br/>• Token Chaining & Newman CLI Reports"]
+    M6["Modul 6: Web UI E2E Automation (Playwright)<br/>• Architecture, Locators & Auto-waiting<br/>• Page Object Model (POM)<br/>• Authentication State & Trace Viewer"]
+    M7["Modul 7: Performance & Stress Testing<br/>• k6 Load, Stress, & Spike Testing<br/>• Latency Analysis (p95, p99, throughput)"]
+    M8["Modul 8: QA CI/CD & GitHub Actions<br/>• Automated Pipeline per PR/Push<br/>• Scheduled Nightly Regression<br/>• Allure / Playwright HTML Test Dashboard"]
+    M9["Modul 9: Portfolio & Interview Mastery<br/>• World-Class GitHub README<br/>• Live Test Report Artifacts<br/>• Top 50 QA/SDET Technical Interview Drill"]
 
     M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8 --> M9
 ```
 
 ---
 
-## 📚 Silabus Detail: 9 Modul Pembelajaran
+## Silabus Detail: 9 Modul Pembelajaran
 
 ---
 
-### 🟢 MODUL 1: QA Fundamentals & Test Engineering Mindset
+### MODUL 1: QA Fundamentals & Test Engineering Mindset
 *Tujuan: Memahami filosofi pengujian, membedakan peran kualitas dalam rekayasa perangkat lunak, dan menyelaraskan pola pikir.*
 
 - **1.1 Filosofi Kualitas Perangkat Lunak**
@@ -91,7 +91,7 @@ flowchart TD
 
 ---
 
-### 🟢 MODUL 2: Black Box Test Design Techniques (Teknik Merancang Uji)
+### MODUL 2: Black Box Test Design Techniques (Teknik Merancang Uji)
 *Tujuan: Mampu merancang skenario pengujian dengan efisiensi matematis tanpa perlu menebak-nebak secara acak.*
 
 - **2.1 Equivalence Partitioning (EP)**
@@ -123,7 +123,7 @@ flowchart TD
 
 ---
 
-### 🟡 MODUL 3: Dokumentasi QA & Test Case Matrix Standar Industri
+### MODUL 3: Dokumentasi QA & Test Case Matrix Standar Industri
 *Tujuan: Menghasilkan artefak dokumen QA profesional yang siap dipresentasikan kepada Tech Lead, Project Manager, dan Stakeholder.*
 
 - **3.1 Test Plan Document (IEEE 829 Standard)**
@@ -154,7 +154,7 @@ flowchart TD
 
 ---
 
-### 🟡 MODUL 4: Defect Lifecycle & Bug Tracking (Jira / GitHub Issues)
+### MODUL 4: Defect Lifecycle & Bug Tracking (Jira / GitHub Issues)
 *Tujuan: Menguasai seni pelaporan bug yang presisi, obyektif, dan tidak menimbulkan debat antara QA dan Developer.*
 
 - **4.1 Siklus Hidup Bug (Defect Life Cycle)**
@@ -199,7 +199,7 @@ flowchart TD
 
 ---
 
-### 🟠 MODUL 5: API Automation Testing (Postman + Newman CLI)
+### MODUL 5: API Automation Testing (Postman + Newman CLI)
 *Tujuan: Membangun rangkaian tes otomatis untuk seluruh lapisan REST API Lumiina tanpa bergantung pada tampilan visual browser.*
 
 - **5.1 Fondasi API Testing**
@@ -246,7 +246,7 @@ flowchart TD
 
 ---
 
-### 🔴 MODUL 6: Web UI E2E Automation dengan Playwright (Modern SDET)
+### MODUL 6: Web UI E2E Automation dengan Playwright (Modern SDET)
 *Tujuan: Menciptakan robot pengujian antarmuka browser modern yang cepat, andal, bebas flakiness, dan menggunakan arsitektur Page Object Model.*
 
 - **6.1 Mengapa Playwright Mengungguli Selenium & Cypress?**
@@ -294,7 +294,7 @@ flowchart TD
 
 ---
 
-### 🔴 MODUL 7: Performance, Load & Stress Testing (k6)
+### MODUL 7: Performance, Load & Stress Testing (k6)
 *Tujuan: Mengetahui batas daya tahan dan karakteristik throughput server Lumiina di bawah beban ribuan user simultan.*
 
 - **7.1 Konsep Metrik Kinerja Backend**
@@ -324,7 +324,7 @@ flowchart TD
 
 ---
 
-### 🟣 MODUL 8: QA CI/CD Pipeline Automation (GitHub Actions)
+### MODUL 8: QA CI/CD Pipeline Automation (GitHub Actions)
 *Tujuan: Membangun pipeline otomatisasi mandiri di cloud agar rangkaian tes berjalan otomatis tanpa perlu dieksekusi manual dari laptop.*
 
 - **8.1 Desain Otomasi Pipeline Pengujian**
@@ -345,7 +345,7 @@ flowchart TD
 
 ---
 
-### 🏆 MODUL 9: Portofolio Showcasing & Interview Mastery
+### MODUL 9: Portofolio Showcasing & Interview Mastery
 *Tujuan: Mengemas seluruh karya dan keahlian menjadi portofolio yang memukau perekrut dan mengunci tawaran kerja.*
 
 - **9.1 Menata Repository `Nyanns/lumiina-qa-automation`**
@@ -365,7 +365,7 @@ flowchart TD
 
 ---
 
-## 📅 Rencana Pelaksanaan Praktik (Step-by-Step Schedule)
+## Rencana Pelaksanaan Praktik (Step-by-Step Schedule)
 
 | Tahap | Topik / Aktivitas | Output / Deliverables Nyata |
 |---|---|---|
@@ -379,11 +379,11 @@ flowchart TD
 | **Hari 8** | **E2E Scenarios (Upload, Like, Follow)** | Skenario kritis interaktif terotomasi penuh |
 | **Hari 9** | **Performance Testing dengan k6** | Skrip load test + analisis p95 latency laporan k6 |
 | **Hari 10** | **QA CI/CD Pipeline (GitHub Actions)** | Workflow `.yml` berjalan otomatis di GitHub Actions |
-| **Hari 11** | **Portofolio Polish & Interview Prep** | README kelas dunia, LinkedIn update, & CV siap sebar 🚀 |
+| **Hari 11** | **Portofolio Polish & Interview Prep** | README kelas dunia, LinkedIn update, & CV siap sebar  |
 
 ---
 
-## 📌 Aturan & Etika Belajar Kita
+## Aturan & Etika Belajar Kita
 1. **Paham Konsep Dahulu, Baru Tulis Kode / Dokumen**: Tidak ada kode sulap atau copy-paste tanpa tahu alasannya.
 2. **Berpedoman pada Real-World Standards**: Segala format dokumen mengacu pada standar global (ISTQB, IEEE 829, W3C, OWASP).
 3. **Target Pengujian Nyata**: Setiap skenario diuji langsung ke sistem **Lumiina Live**, memberikan konteks dunia nyata yang otentik.

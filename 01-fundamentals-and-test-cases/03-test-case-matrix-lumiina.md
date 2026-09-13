@@ -1,13 +1,13 @@
-# 🧪 Test Case Matrix: Lumiina Platform Under Test
+# Test Case Matrix: Lumiina Platform Under Test
 > **Aplikasi Target**: [Lumiina Live](https://lumiina-art.vercel.app)  
 > **Google Sheets Live Matrix**: [Lumiina QA Test Case Matrix (IEEE 829)](https://docs.google.com/spreadsheets/d/1-3cJ7OpcyEH6wcFdAwVZBZO1ayJWbJp_vnRWuhVoDbE/edit?gid=0#gid=0)  
 > **Standar Dokumen**: IEEE 829 & ISTQB Test Documentation  
 > **Tester / Author**: Sandi (QA & SDET Engineering)  
-> **Status Sesi**: Modul 3 Selesai 100% (13 Kasus Uji Siap Portofolio) 🚀
+> **Status Sesi**: Modul 3 Selesai (13 Kasus Uji Terverifikasi)
 
 ---
 
-## 📊 Ringkasan Metrik Pengujian (Test Execution Summary)
+## Ringkasan Metrik Pengujian (Test Execution Summary)
 - **Total Test Cases Executed**: 13
 - **Passed**: 12 (92.3%)
 - **Failed**: 1 (7.7%)
@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Matriks Kasus Uji (Test Case Matrix)
+## Matriks Kasus Uji (Test Case Matrix)
 
 | Test Case ID | Module | Test Scenario | Test Title / Objective | Pre-Conditions | Test Steps | Test Data | Expected Result | Actual Result | Status |
 |---|---|---|---|---|---|---|---|---|:---:|
@@ -36,7 +36,7 @@
 
 ---
 
-## 📝 Catatan Temuan Khusus (QA Defect & Usability Log):
+## Catatan Temuan Khusus (QA Defect & Usability Log):
 1. **[Defect / Bug] Backend Validation Leakage (TC_AUTH_001 & TC_AUTH_004)**: Validasi backend mengembalikan raw error string internal Go (`Field validation for ... failed on the 'alphanum' / 'min' tag`) ke layar pengguna alih-alih pesan bahasa manusiawi.
 2. **[Usability / UX Observation] Toast Notification Duration (TC_AUTH_002)**: Notifikasi konfirmasi instruksi aktivasi email berpindah terlalu cepat sebelum pengguna selesai membaca.
 3. **[Security & Quality Strength] Defensive UI (TC_AUTH_003 & TC_ART_005)**: Form registrasi dan form upload menerapkan validasi sisi klien (*client-side defense*) dengan mengunci tombol *Submit/Publish* saat persyaratan belum terpenuhi. Hal ini mencegah pengiriman request sampah/tidak lengkap ke backend (*Zero Unnecessary Network Traffic*).
