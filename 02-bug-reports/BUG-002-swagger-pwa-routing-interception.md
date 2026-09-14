@@ -8,7 +8,7 @@
 - **Module**: Documentation & Infrastructure (`/swagger`)
 - **Reported By**: Sandi (QA & SDET Engineering)
 - **Reported Date**: 2026-09-14
-- **Status**: Open
+- **Status**: Resolved (Fixed & Verified in Production)
 - **Severity**: Minor
 - **Priority**: Medium (P3)
 
@@ -71,3 +71,16 @@
        c.Redirect(http.StatusMovedPermanently, "/swagger/index.html")
    })
    ```
+
+---
+
+## Resolution & Production Verification
+- **Fixed In Commits**:
+  - Branch: `fix/swagger-pwa-routing` (`98011ee`)
+  - Merged to: `develop` (`9bbbcc4`) & `main` (`9bbbcc4`)
+- **Verification Results**:
+  1. `curl -v https://lumiina-art.vercel.app/swagger` returns `HTTP/2 301` with `location: /swagger/index.html`.
+  2. `curl -v https://lumiina-art.vercel.app/swagger/` returns `HTTP/2 301` with `location: /swagger/index.html`.
+  3. `https://lumiina-art.vercel.app/sw.js` contains `denylist:[/^\/swagger/,/^\/api/]`, ensuring Workbox does not intercept documentation navigations.
+  4. Both Incognito and standard browser sessions successfully render Swagger UI without manual cache clearing.
+
